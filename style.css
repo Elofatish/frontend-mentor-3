@@ -1,0 +1,90 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,800;1,800&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Gray-500: hsl(0, 0%, 42%);
+    --Gray-950: hsl(0, 0%, 7%);
+}
+body{
+    background-color: var(--Yellow);
+    font-family: "Figtree", sans-serif;
+   
+    
+   
+    
+}
+.containar{
+    border-radius: 20px;
+    background-color: var(--White);
+    border: 1px solid black;
+    width: 450px;
+    margin: auto;
+    margin-top: 25px;
+    box-shadow: 7px 7px;
+    
+}
+.content{
+    display: grid;
+    gap: 10px;
+    padding: 20px;
+}
+.content .imag img{
+    width: 100%;
+    border-radius: 10px;
+}
+.title button{
+    background-color: var(--Yellow);
+    color:var(--Gray-950);
+    padding: 5px;
+    width: 110px;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 5px;
+}
+.title h3{
+    padding-top: 15px;
+    color: var(--Gray-950);
+    font-weight: 400;
+}
+.title a {
+   text-decoration: none;
+}
+.title a:hover h1{
+    color: var(--Yellow);
+}
+.title a h1{
+    padding-top: 10px;
+    color: var(--Gray-950);
+    font-weight: 800;
+}
+.title p{
+    font-size: 18px;
+    color: var(--Gray-500);
+    line-height: 1.5;
+    padding-bottom: 15px;
+}
+.title .imag2{
+    display: flex;
+    
+}
+h5{
+    padding-left: 15px;
+    padding-top: 7px;
+}
+.title img{
+    width: 30px;
+    height: 30px;
+}
+.attribution{
+    padding-top: 25px;
+}
